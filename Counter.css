@@ -1,0 +1,52 @@
+html{
+    background-color: lightgreen;
+}
+
+body{
+    overflow-y: scroll;
+    max-width: 400px;
+    max-height: 100%;
+    background-color: white;
+    border: solid;
+    text-align: center;
+    box-shadow: 3px 3px 2px 1px;
+    margin: 8em auto;
+}
+
+h1{
+    margin: auto;
+    padding: auto;
+}
+
+h2{
+    font-size: xx-large;
+    color: darkred;
+}
+
+
+#increment-btn{
+    background-color: lightcoral;
+    font-weight: bolder;
+    width: 25em;
+    height: 4em;
+    margin-bottom: 15px;
+}
+
+#save-btn{
+    background-color: lightblue;
+    font-weight: bolder;
+    width: 25em;
+    height: 4em;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#reset-btn{
+    background-color: pink;
+    margin-top: 10px;
+    margin-left: 315px;
+    border-radius: 10px;
+}
