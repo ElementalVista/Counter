@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Link to external stylesheet for styling -->
     <link rel="Stylesheet" href="Counter.css" />
   </head>
 
   <body>
+    <!-- Button to reset the counter -->
     <button id="reset-btn">RESET</button>
-
+    
+    <!-- Heading for displaying the count -->
     <h1>Tickets Counted:</h1>
+    <!-- Display the current count -->
     <h2 id="count-el">0</h2>
 
+    <!-- Button to increment the count -->
     <button id="increment-btn">INCREMENT</button>
+    <!-- Button to save the count and display previous entries -->
     <button id="save-btn">SAVE</button>
+
+    <!-- Section for displaying previous entries -->
     <div>
       <p id="save-el">Previous entries:</p>
       <p id="save-result"></p>
     </div>
+    <!-- Includes the JavaScript file for functionality -->
     <script src="Counter.js"></script>
   </body>
 </html>
